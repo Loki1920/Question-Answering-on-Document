@@ -112,4 +112,4 @@ Generation: The retrieved chunks (the context) and the user's original question 
 
 Display: The answer and its source chunks are displayed back to the user in the Streamlit UI.
 
-Enjoy your intelligent document assistant!
+Enjoy your intelligent document assistant! cheers
