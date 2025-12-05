@@ -15,6 +15,7 @@ import tempfile
 
 # Load environment variables from a .env file for secure API key management
 load_dotenv()
+# api key from env
 groq_api_key = os.getenv("GROQ_API_KEY")
 
 # Set the title for the Streamlit web application
@@ -147,3 +148,4 @@ if st.session_state.vector_store and prompt:
 
         except Exception as e:
             st.error(f"An error occurred while generating the answer: {e}")
+
