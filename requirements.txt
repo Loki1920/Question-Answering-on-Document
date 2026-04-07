@@ -1,9 +1,9 @@
 streamlit
-langchain>=0.3.0
-langchain-groq>=0.3.0
-langchain-text-splitters>=0.3.0
-langchain-core>=0.3.58
-langchain-community>=0.3.0
+langchain==0.2.16
+langchain-groq==0.1.9
+langchain-text-splitters==0.2.4
+langchain-core==0.2.38
+langchain-community==0.2.16
 python-dotenv
 pypdf
 faiss-cpu
